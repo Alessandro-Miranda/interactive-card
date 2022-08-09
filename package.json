@@ -1,0 +1,20 @@
+{
+  "name": "interactive-card",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive card details form coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alessandro-Miranda/interactive-card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alessandro-Miranda/interactive-card/issues"
+  },
+  "homepage": "https://github.com/Alessandro-Miranda/interactive-card#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
