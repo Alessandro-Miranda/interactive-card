@@ -645,8 +645,28 @@ video {
   height: max-content;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
+.h-2\/4 {
+  height: 50%;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
 .max-h-full {
   max-height: 100%;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-screen {
@@ -729,30 +749,6 @@ video {
   background-color: hsl(278 68% 11% / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/images\/bg-main-mobile\.png\'\)\] {
-  background-image: url('./images/bg-main-mobile.png');
-}
-
-.bg-\[url\(\'\.\/images\/bg-card-front\.png\'\)\] {
-  background-image: url('./images/bg-card-front.png');
-}
-
-.bg-\[url\(\'\.\/images\/bg-card-back\.png\'\)\] {
-  background-image: url('./images/bg-card-back.png');
-}
-
-.bg-\[url\(\'\/images\/bg-main-mobile\.png\'\)\] {
-  background-image: url('/images/bg-main-mobile.png');
-}
-
-.bg-\[url\(\'\/images\/bg-card-front\.png\'\)\] {
-  background-image: url('/images/bg-card-front.png');
-}
-
-.bg-\[url\(\'\/images\/bg-card-back\.png\'\)\] {
-  background-image: url('/images/bg-card-back.png');
-}
-
 .bg-\[url\(\'\.\.\/images\/bg-main-mobile\.png\'\)\] {
   background-image: url('../images/bg-main-mobile.png');
 }
@@ -805,6 +801,14 @@ video {
 
 .pr-11 {
   padding-right: 2.75rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
 }
 
 .text-center {
