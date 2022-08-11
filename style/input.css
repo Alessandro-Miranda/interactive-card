@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.apply-border-gradient {
+    background-image: linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+}
