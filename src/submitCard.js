@@ -29,6 +29,14 @@ function submitCard() {
         inputError(cvc);
         return;
     }
+
+    const form = document.querySelector('form');
+    const completeState = document.querySelector('.js-complete-status');
+
+    form.classList.add('hidden');
+    form.reset();
+    completeState.classList.remove('hidden');
+    completeState.classList.add('block');
 }
 
 function isEmpty(inputValue) {

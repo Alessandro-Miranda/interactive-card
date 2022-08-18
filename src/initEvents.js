@@ -5,6 +5,7 @@
 function initEvents() {
     initInputGradient();
     initInputKeyupValidation();
+    initCompleteButtonEvent();
 }
 
 function initInputGradient() {
@@ -34,4 +35,16 @@ function validateNumberAndReplaceIfIsAChar(event) {
     if (isNaN(input.value)) {
         input.value = input.value.slice(0, -1);
     }
+}
+
+function initCompleteButtonEvent() {
+    const button = document.querySelector('.js-complete-button');
+    const form = document.querySelector('form');
+    const completeState = document.querySelector('.js-complete-status');
+
+    button.addEventListener('click', () => {
+        completeState.classList.add('hidden');
+        form.classList.add('block');
+        form.classList.remove('hidden');
+    })
 }
